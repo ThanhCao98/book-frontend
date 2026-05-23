@@ -32,3 +32,15 @@ một cách thông minh
 
 ⇒ Tất cả đều xoay quanh 1 khái niệm cốt lõi là **Serve State Management**
 
+### **Serve State Management**
+
+Phải phân biệt được 2 loại trong 1 ứng dụng: **Client State & Server State**
+
+| Client State                                                                                                                                             | Server State                                                                                                                                                              |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Dữ liệu do app tự sinh ra và quản lý.<br><br>Ví dụ: Modal đang mở hay đóng, Darkmode đang bật hay tắt<br><br>⇒ Chỉ cần dùng useState hoặc Zustand</p> | <p>Dữ liệu app/website chỉ mượn về để hiển thị dữ liệu.<br><br>Ví dụ: Danh sách bài viết, lượt thích, thông tin profile,.... Đều là dữ liệu động trong DB có thể CRUD</p> |
+
+<figure><img src=".gitbook/assets/Screenshot 2026-05-23 at 14.49.15.png" alt=""><figcaption></figcaption></figure>
+
+
+
